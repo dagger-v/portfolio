@@ -9,7 +9,8 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #3e3e3e;
+  background-color: #27272c;
+  border-bottom: 2px solid rgb(194, 112, 194);
 }
 
 .header a {

@@ -4,4 +4,36 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  height: 90vh;
+}
+
+.home__content p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.home__color {
+  color: rgb(194, 112, 194);
+}
+
+.home__button {
+  background-color: #27272c;
+  border: 1px solid rgb(194, 112, 194);
+  border-radius: 300px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+}
+
+@media (min-width: 768px) {
+  .home__button {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
 }
